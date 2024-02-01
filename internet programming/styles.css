@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header {
+    background-color: rgba(12, 126, 219, 0.6); /* Semi-transparent black background for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+    font-family: Algerian ; /* Change the font family */
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('images.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif; /* Change the font family */
+}
+
+.container p {
+    text-indent: 1cm; /* Add indentation of 1cm to paragraphs */
+}
+
+p {
+    line-height: 1.6;
+}
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent black background for footer */
+    color: #fff;
+    padding: 1px 2px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Position the footer to the left */
+    width: 200px; /* Set a fixed width for the footer */
+    font-family: "Times New Roman", Times, serif; /* Change the font family */
+    font-size: 11px; /* Set the font size to 12 pixels */
+}
+
+/* Underline for section headings */
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
